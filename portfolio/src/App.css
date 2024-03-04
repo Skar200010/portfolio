@@ -1,0 +1,16 @@
+/* App.css */
+/* App.css */
+
+.app-container {
+    padding: 0;
+    background-color: black;
+    
+    
+  
+  .content-container {
+    height: auto; /* Adjust based on your design */
+    margin-left: 250px;
+    background-color: black;
+  }
+}
+  

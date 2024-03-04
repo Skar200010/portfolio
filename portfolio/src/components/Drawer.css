@@ -1,0 +1,41 @@
+/* src/components/Drawer.css */
+.drawer {
+    width: 240px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto; /* Enable scrolling if content is taller than the viewport */
+    padding-top: 60px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .drawer a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .drawer a:hover {
+    background-color: #555;
+  }
+  
+  .drawer.open {
+    transform: translateX(0);
+  }
+  
+  .drawer.closed {
+    transform: translateX(-240px);
+  }
+  
+  .main-content {
+    margin-left: 240px;
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+  }
+  
