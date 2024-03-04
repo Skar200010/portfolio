@@ -59,4 +59,4 @@ const FixedCard = () => {
   );
 };
 
-export def
+export default FixedCard;
