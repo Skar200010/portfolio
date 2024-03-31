@@ -9,10 +9,11 @@ const Profile = () => {
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        height: '20vh', // Adjust the height as needed
+        height: '25vh', // Adjust the height as needed
         background: 'url(/blurr.jpg) center/cover no-repeat',
         position: 'relative', // Add this line
         top: 25,
+        borderRadius:'4px'
       }}
     >
       <Grid container justifyContent="center" alignItems="center">

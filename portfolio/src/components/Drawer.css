@@ -38,4 +38,9 @@
     padding: 20px;
     transition: margin-left 0.3s ease;
   }
-  
+  .cardcontainer{
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    
+    }

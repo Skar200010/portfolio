@@ -23,7 +23,7 @@ const Home = () => {
       <Fab
         color="primary"
         aria-label="contact-me"
-        sx={{ position: 'fixed', top: 50, right: 100 }}
+        sx={{ position: 'fixed', top: 30, right: 35 }}
         onClick={showEmailDetails}
       >
         <EmailIcon />

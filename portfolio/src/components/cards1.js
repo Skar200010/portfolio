@@ -14,12 +14,7 @@ const projectData = [
     image: "/todo.png",
     link: "https://github.com/Skar200010/to-do-List",
   },
-  {
-    title: "Chat-App",
-    description: "chat-App to chat with other people with efficiently.",
-    image: "/chatapp.jpg",
-    link: "https://github.com/Skar200010/chatapp",
-  },
+  
   {
     title: "Stock-Prediction-System",
     description: "A system to predict the stock prizes",
@@ -31,6 +26,12 @@ const projectData = [
     description: "you can manage your stocks and track your expenses",
     image: "/stocks.jpg",
     link: "https://github.com/Skar200010/stockporfolio",
+  },
+  {
+    title: "Api-Bucket",
+    description: "ApI-Bucket to provide a code of api's to used thier own project ",
+    image: "/bucket1.png",
+    link: "https://github.com/Skar200010/ApiBucket",
   },
   {
     title: "Auth-Module",
@@ -45,6 +46,12 @@ const projectData = [
     image: "/mern.jpg",
     link: "https://github.com/Skar200010/webdevMERN",
   },
+  {
+    title: "Chat-App",
+    description: "chat-App to chat with other people with efficiently.",
+    image: "/chatapp.jpg",
+    link: "https://github.com/Skar200010/chatapp",
+  },
 ];
 
 const skillData = [
@@ -54,7 +61,7 @@ const skillData = [
   },
   {
     title: "Frontend",
-    skills: ["HTML", "CSS", "JavaScript", "React.js"],
+    skills: ["HTML", "CSS", "JavaScript", "React.js" , "Tailwind.css"],
   },
   {
     title: "Database & Devops",

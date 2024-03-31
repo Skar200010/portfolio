@@ -1,16 +1,32 @@
 /* App.css */
 /* App.css */
 
-.app-container {
+/* .app-container {
     padding: 0;
     background-color: black;
     
-    
-  
-  .content-container {
-    height: auto; /* Adjust based on your design */
+} */
+
+
+  /* .content-container {
+    height: auto; 
     margin-left: 250px;
     background-color: black;
-  }
+  } */
+
+  /* App.css */
+
+.app-container {
+  display: flex;
+
 }
-  
+
+.left-container {
+  flex: 1;
+  background-color: black;
+}
+
+.right-container {
+  flex: 5;
+  background-color: black;
+}
