@@ -13,7 +13,7 @@ const FixedCard = () => {
     window.open(url, '_blank');
   };
 
-  const isMobile = useMediaQuery('(max-width:1400px)');
+  const isMobile = useMediaQuery('(max-width:800px)');
 
   return (
     <div className='cardcontainer' style={{
@@ -23,7 +23,7 @@ const FixedCard = () => {
       <Card
         style={{
           height: '70vh', // 100% of the viewport height
-          width: isMobile ? '31%' : '220px', // Adjust width as needed
+          width: isMobile ? '31%' : '200px', // Adjust width as needed
           backgroundColor: 'rgb(28, 27, 35)',
           zIndex: 1, // Ensure the drawer is on top
         }}

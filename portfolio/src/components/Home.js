@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Home = () => {
   const showEmailDetails = () => {
     toast.info('Email: khedekarsohan10@gmail.com', {
-      position: 'bottom-right',
+      position: 'top-right',
       autoClose: 5000, // milliseconds
       hideProgressBar: false,
       closeOnClick: true,
